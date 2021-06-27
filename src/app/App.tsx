@@ -1,7 +1,12 @@
+import { Button } from "antd";
+import "./App.css";
+
 export const App = () => {
   return (
     <div>
-      <h1>Hello</h1>
+      <Button type="primary" size="large">
+        Button
+      </Button>
     </div>
   );
 };
