@@ -1,12 +1,6 @@
-import { Button } from "antd";
+import AppLayout from "./AppLayout";
 import "./App.css";
 
 export const App = () => {
-  return (
-    <div>
-      <Button type="primary" size="large">
-        Button
-      </Button>
-    </div>
-  );
+  return <AppLayout />;
 };
