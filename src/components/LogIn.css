@@ -1,0 +1,27 @@
+.log-in-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 50px auto 0 auto;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.log-in-heading {
+  margin-top: 1rem;
+}
+
+.log-in-form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.log-in-forgotpassword {
+  text-align: right;
+}
+
+.log-in-button {
+  width: 100%;
+}
